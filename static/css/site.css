@@ -1,0 +1,197 @@
+:root {
+    --bg: #f6f0e8;
+    --card: #fffaf4;
+    --text: #2f2a24;
+    --muted: #7c6f60;
+    --border: #e7dbcf;
+    --accent: #8d6242;
+    --shadow: 0 10px 28px rgba(0, 0, 0, 0.05);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, "Arial", serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.site-wrap {
+    min-height: 100vh;
+    padding: 24px 0 40px;
+}
+
+.container {
+    width: min(960px, calc(100% - 24px));
+    margin: 0 auto;
+}
+
+.hero-wrap {
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    box-shadow: var(--shadow);
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 300px;
+    display: block;
+    object-fit: cover;
+    background: #eee;
+}
+
+.content-card {
+    margin-top: 18px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px 24px;
+    box-shadow: var(--shadow);
+}
+
+.page-date {
+    color: var(--muted);
+    font-size: 0.97rem;
+    margin-bottom: 6px;
+}
+
+
+.page-title {
+    text-transform: uppercase;
+}
+
+.page-title {
+    margin: 0 0 16px;
+    line-height: 1.3;
+    font-size: 1.85rem;
+}
+
+.section-label {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    font-size: 1.68rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.reading-links a {
+    font-weight: bold;
+}
+
+
+.reading-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.reading-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--accent);
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 8px 12px;
+    font-size: 1.16rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.reading-links a:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.body-text {
+    font-size: 1.85rem;
+    line-height: 1.5;
+}
+
+.body-text p {
+    margin: 2rem 2rem 1.2em 0;
+}
+
+
+.prayer-text {
+    font-size: 1.85rem;
+    line-height: 1.5;
+}
+
+
+
+.prayer-text p {
+    margin: 0 0 0.55em 0;
+}
+
+.body-text p:last-child,{
+    margin-bottom: 4;
+}
+
+.prayer-text p:last-child {
+    margin-bottom: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.nav-btn {
+    font-weight: bold;
+    font-size: 1.15rem;
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--accent);
+}
+
+.nav-btn.disabled {
+    color: #b8ab9d;
+    background: #faf7f2;
+    pointer-events: none;
+}
+
+.empty-state {
+    color: var(--muted);
+    font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+    .site-wrap {
+        padding-top: 14px;
+    }
+
+    .container {
+        width: min(100%, calc(100% - 16px));
+    }
+
+    .content-card {
+        padding: 22px 16px;
+    }
+
+    .page-title {
+        font-size: 1.85rem;
+    }
+
+    .body-text,
+    .prayer-text {
+        font-size: 1.85rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+}

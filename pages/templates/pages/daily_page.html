@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page and page.title %}{{ page.title }}{% else %}Daily Bible Devotional{% endif %}</title>
+    <link rel="stylesheet" href="{% static 'css/site.css' %}">
+</head>
+<body>
+    <div class="site-wrap">
+        <div class="container">
+            {% if page %}
+                {% if page.image_path %}
+                <div class="hero-wrap">
+                    <img class="hero-image" src="{{ page.image_path }}" alt="{{ page.title }}">
+                </div>
+                {% endif %}
+
+                <div class="content-card">
+                    
+                    <h1 class="page-title">{{ page.title }}</h1>
+
+                    {% if reading_links %}
+                        
+                        <div class="reading-links">
+                            {% for link in reading_links %}
+                                <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.text }}</a>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+
+                   
+                    <div class="body-text">{{ page.body|linebreaks }}</div>
+
+                    {% if page.prayer %}
+                        <div class="section-label">Prayer:</div>
+                        <div class="prayer-text">{{ page.prayer|linebreaks }}</div>
+                    {% endif %}
+
+                    <div class="nav-links">
+                        {% if prev_page %}
+                            <a class="nav-btn" href="{% url 'pages:daily_page' prev_page.page_date|date:'Y-m-d' %}">← Previous </a>
+                        {% else %}
+                            <span class="nav-btn disabled">← Previous </span>
+                        {% endif %}
+
+                        {% if next_page %}
+                            <a class="nav-btn" href="{% url 'pages:daily_page' next_page.page_date|date:'Y-m-d' %}">Next →</a>
+                        {% else %}
+                            <span class="nav-btn disabled">Next →</span>
+                        {% endif %}
+                    </div>
+                </div>
+            {% else %}
+                <div class="content-card">
+                    <h1 class="page-title">Daily Bible Devotional</h1>
+                    <p class="empty-state">No devotional pages have been imported yet.</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
