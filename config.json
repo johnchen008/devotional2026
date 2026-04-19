@@ -1,0 +1,16 @@
+{
+  "send_time": "07:00",
+  "timezone": "Asia/Singapore",
+  "base_url": "https://jhchen009.pythonanywhere.com",
+  "smtp": {
+    "host": "smtp.mail.yahoo.com",
+    "port": 587,
+    "username": "jhchen008@yahoo.com.sg",
+    "password": "ezfqdeppuhgvonls",
+    "use_starttls": true
+  },
+  "from_email": "jhchen008@yahoo.com.sg",
+  "to_emails": [
+    "jhchen008@yahoo.com.sg"
+  ]
+}
