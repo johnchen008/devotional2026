@@ -108,7 +108,7 @@ body {
 
 .body-text {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.8rem;
     line-height: 1.5;
     word-break: break-word;
     overflow-wrap: break-word;
@@ -120,7 +120,7 @@ body {
 
 
 .prayer-text {
-    font-size: 1rem;
+    font-size: 1.8rem;
     line-height: 1.5;
 }
 
