@@ -89,6 +89,9 @@ body {
 
 }
 
+.reading-links a:visited {
+    color: #5aa9e6;   /* light blue */
+}
 
 .section-label {
     font-size: 1.9rem;
@@ -116,6 +119,7 @@ body {
     margin-top: 28px;
     margin-bottom: 28px;
 }
+
 
 
 .nav-btn {
