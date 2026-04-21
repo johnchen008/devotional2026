@@ -100,11 +100,11 @@ body {
 
 .body-text,
 .prayer-text {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     line-height: 1.7;
     text-align: left;
     letter-spacing: 0;
-    margin-bottom: 0px;
+   
 }
 
 .nav-links {
@@ -170,7 +170,8 @@ body {
     }
 
  .body-text p {
-    margin: 0 10px 0.9em 10px;
+    margin: 0 10px 0em 10px;
+    font-size: 1.8rem;
     line-height: 1.7;
 }
 
@@ -178,12 +179,10 @@ body {
     margin-bottom: 0;
 }
 
-.body-text p:last-child {
-    margin-bottom: 0;
 }
     .prayer-text {
         margin: 0 10px 0em 10px;
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         line-height: 1.7;
         
     }
