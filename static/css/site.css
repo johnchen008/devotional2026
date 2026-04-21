@@ -11,7 +11,7 @@ body {
     padding: 24px;
 }
 
-.hero-image-wrap {
+.hero-wrap {
     width: 100%;
     height: 220px;
     margin-bottom: 24px;
@@ -33,7 +33,7 @@ body {
 }
 
 .page-title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 1.25;
@@ -45,7 +45,7 @@ body {
     margin-bottom: 24px;
 }
 
-.reading-line {
+.reading-links {
     font-size: 1.8rem;
     line-height: 1.8;
     margin-bottom: 24px;
@@ -53,13 +53,13 @@ body {
     text-align: left;
 }
 
-.bible-link {
+.reading-links {
     color: #8b5e34;
     text-decoration: underline;
     margin-right: 0.2em;
 }
 
-.section-title {
+.section-label {
     font-size: 1.9rem;
     font-weight: 700;
     margin: 28px 0 14px;
@@ -76,15 +76,15 @@ body {
     margin-bottom: 28px;
 }
 
-.nav-buttons {
+.nav-btn {
     display: flex;
     justify-content: space-between;
     gap: 16px;
     margin-top: 32px;
 }
 
-.nav-buttons a,
-.nav-buttons span {
+.nav-btn a,
+.nav-btn span {
     display: inline-block;
     padding: 16px 28px;
     border-radius: 12px;
@@ -95,7 +95,7 @@ body {
     box-sizing: border-box;
 }
 
-.nav-buttons .disabled {
+.nav-btn .disabled {
     background: #c7beb5;
     color: #f8f6f3;
 }
