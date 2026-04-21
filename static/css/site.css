@@ -93,9 +93,9 @@ body {
 .section-label {
     font-size: 1.9rem;
     font-weight: 700;
-    margin: 1px 10px 1px;
     color: #8b5e34;
     line-height: 1.35;
+    margin-bottom: 0px;
 }
 
 .body-text,
@@ -109,7 +109,7 @@ body {
 
 .nav-links {
     display: flex;
-    gap: 12px;
+    gap: 22px;
     margin-top: 28px;
 }
 
