@@ -114,6 +114,7 @@ body {
     display: flex;
     gap: 22px;
     margin-top: 28px;
+    margin-bottom: 28px;
 }
 
 
@@ -131,6 +132,7 @@ body {
     display: inline-block;
     background: #fff;
     color: var(--accent);
+    
 }
 
 .nav-btn.disabled {
