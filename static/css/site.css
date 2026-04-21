@@ -98,7 +98,10 @@ body {
     margin-bottom: 0px;
 }
 
-.body-text,
+.body-text {
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
 .prayer-text {
     font-size: 1.7rem;
     line-height: 1.6;
