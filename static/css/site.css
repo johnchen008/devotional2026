@@ -162,7 +162,7 @@ body {
     
  .body-text p {
     margin: 0 0 0.9em 0;
-    line-height: 1.9;
+    line-height: 1.2;
 }
 
 .body-text p:last-child {
@@ -174,8 +174,8 @@ body {
 }
     .prayer-text {
         font-size: 1.7rem;
-        line-height: 1.95;
-        margin-bottom: 22px;
+        line-height: 1.2;
+        margin-bottom: 10px;
     }
 
     .nav-btn {
