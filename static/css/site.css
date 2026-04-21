@@ -163,14 +163,14 @@ body {
 
     .section-label {
         font-size: 1.5rem;
-        margin: 0 10px 0.9em 10px;
+        margin: 0 10px 0em 10px;
     }
     .nav-links {
         flex-direction: column;
     }
 
  .body-text p {
-    margin: 0 10px 0.9em 10px;
+    margin: 0 10px 1.2em 10px;
     line-height: 1.9;
 }
 
