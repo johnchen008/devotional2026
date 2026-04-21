@@ -100,7 +100,7 @@ body {
 
 .body-text,
 .prayer-text {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 1.7;
     text-align: left;
     letter-spacing: 0;
@@ -171,7 +171,7 @@ body {
 
  .body-text p {
     margin: 0 10px 0em 10px;
-    font-size: 1.8rem;
+
     line-height: 1.7;
 }
 
@@ -182,7 +182,7 @@ body {
 }
     .prayer-text {
         margin: 0 10px 0em 10px;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         line-height: 1.7;
         
     }
