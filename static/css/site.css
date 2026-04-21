@@ -151,25 +151,17 @@ body {
         margin-bottom: 10px;
     }
 
-    .page-date {
-        font-size: 1rem;
-        margin-bottom: 20px;
-    }
 
-    .reading-line {
-        font-size: 1.15rem;
-        line-height: 1.8;
-        margin-bottom: 20px;
-    }
 
-    .section-title {
+
+    .section-label {
         font-size: 1.5rem;
-        margin: 24px 0 12px;
+        margin: 10px 0 12px;
     }
 
     
  .body-text p {
-    margin: 0 0 0.9em 0;
+    margin: 0 10px 0.9em 10px;
     line-height: 1.9;
 }
 
@@ -181,9 +173,10 @@ body {
     margin-bottom: 0;
 }
     .prayer-text {
+        margin: 0 10px 0.9em 10px;
         font-size: 1.7rem;
         line-height: 1.95;
-        margin-bottom: 22px;
+        
     }
 
 
