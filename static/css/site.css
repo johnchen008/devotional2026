@@ -139,7 +139,7 @@ body {
         padding: 18px 16px;
     }
 
-    .hero-image-wrap {
+    .hero-wrap {
         height: 170px;
         border-radius: 14px;
         margin-bottom: 22px;
@@ -186,23 +186,8 @@ body {
         margin-bottom: 22px;
     }
 
-    .nav-btn {
-        flex-direction: column;
-        gap: 12px;
-        margin-top: 28px;
-    }
 
-    .nav-btn a,
-    .nav-btn span {
-        width: 100%;
-        text-align: center;
-        font-size: 1.05rem;
-        padding: 14px 18px;
-    }
 
-    .empty-state {
-        font-size: 1.1rem;
-        padding: 40px 16px;
-    }
+ 
 
 }
