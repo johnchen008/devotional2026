@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    font-family: "Arial", "Arial", Arial;
     background: #f6f2ea;
     color: #2f2a24;
 }
@@ -73,13 +73,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 6px;
+    margin-bottom: 20px;
 }
 
 .reading-links a {
     
     padding: 0px 12px;
-    font-size: 1.06rem;
+    font-size: 1.16rem;
 
 }
 
@@ -93,7 +93,7 @@ body {
 .section-label {
     font-size: 1.9rem;
     font-weight: 700;
-    margin: 15px 10px 5px;
+    margin: 1px 10px 1px;
     color: #8b5e34;
     line-height: 1.35;
 }
@@ -104,7 +104,7 @@ body {
     line-height: 1.7;
     text-align: left;
     letter-spacing: 0;
-    margin-bottom: 1px;
+    margin-bottom: 0px;
 }
 
 .nav-links {
