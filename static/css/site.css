@@ -113,35 +113,32 @@ body {
     margin-top: 28px;
 }
 
-.nav-btn {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    margin-top: 32px;
-}
 
-.nav-btn a,
-.nav-btn span {
-    display: inline-block;
-    padding: 16px 28px;
-    border-radius: 12px;
-    font-size: 1.35rem;
+.nav-btn {
+
+    font-weight: bold;
+    font-size: 1.15rem;
+    flex: 1;
+    text-align: center;
     text-decoration: none;
-    background: #8b5e34;
-    color: white;
-    box-sizing: border-box;
+    padding: 4px 1px;
+
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    display: inline-block;
+    background: #fff;
+    color: var(--accent);
 }
 
 .nav-btn.disabled {
-    background: #c7beb5;
-    color: #f8f6f3;
+    color: #b8ab9d;
+    background: #faf7f2;
+    pointer-events: none;
 }
 
 .empty-state {
-    font-size: 1.6rem;
-    line-height: 1.8;
-    text-align: center;
-    padding: 60px 20px;
+    color: var(--muted);
+    font-size: 1.05rem;
 }
 
 @media (max-width: 600px) {
@@ -164,13 +161,14 @@ body {
 
 
 
-
     .section-label {
         font-size: 1.5rem;
-        margin: 10px 0 12px;
+        margin: 0 10px 0em 10px;
+    }
+    .nav-links {
+        flex-direction: column;
     }
 
-    
  .body-text p {
     margin: 0 10px 0.9em 10px;
     line-height: 1.7;
@@ -184,13 +182,11 @@ body {
     margin-bottom: 0;
 }
     .prayer-text {
-        margin: 0 10px 0.9em 10px;
+        margin: 0 10px 0em 10px;
         font-size: 1.7rem;
         line-height: 1.7;
         
     }
-
-
 
  
 
